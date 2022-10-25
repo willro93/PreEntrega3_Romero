@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <title></title>
+</head>
+<body>
+    <header>
+        <h1>Instrucciones:</h1>
+        <p class="instrucciones">
+            Avanza a lo largo del camino utlizando los valores que los dados puedan dar.
+            <br>
+            Cada jugador lanzará dos dados, el primero indica el número de casillas a avanzar, el segundo indica los puntos obtenidos. Las casillas trampa te harán retroceder, sin embargo se puede pagar una penalización de 4 puntos para evitar retoceder.
+            <br>
+            Este es un juego diseñado para un número de 2-4 jugadores.
+        </p>
+    </header>
+    <section class="dados">
+       <div> 
+            <img src="./media/dados/rand.svg" id="imgDado1" width="200px" height="200px" alt="random face"> 
+            <button class="botonDado" id="botonDado1">
+                Lanzar primer dado
+            </button>
+        </div>
+    
+        <div>
+            <img src="./media/dados/rand.svg" id="imgDado2" width="200px" height="200px" alt="random face"> 
+            <button class="botonDado" id="botonDado2">
+                Lanzar Segundo dado
+            </button>
+        </div>
+    </section>
+
+    <section class="tableroJuego">
+        <div class="numeroJugadores" id="botonesJuego">
+            <button class="botonJugadores" id="botonInicio">
+                Iniciar Juego
+            </button>
+            <button class="botonJugadores" id="botonDosJugadores">
+                Dos jugadores
+            </button>
+            <button class="botonJugadores" id="botonTresJugadores">
+                Tres jugadores
+            </button>
+            <button class="botonJugadores" id="botonCuatroJugadores">
+                Cuatro jugadores
+            </button>
+        </div>
+        <div class="puntajes">
+            <div class="inputDatos">
+                <h5>Casilla</h5>
+                <input type="text" id="casilla">
+                <h5>Puntos</h5>
+                <input type="text" id="puntos">
+                <button class="ingresarDatos" id="botonGuardar">Siguiente turno</button>
+            </div>
+            <div class="puntaje">
+                <h5>Puntaje</h5>
+                <p id="puntajeTotal">
+
+                </p>
+            </div>
+        </div>
+        <div class="casillas">
+            <div class="cuadro">1
+                <div id="p1"></div>
+                <div id="p2"></div>
+                <div id="p3"></div>
+                <div id="p4"></div>
+            </div>
+            <div class="cuadro">2</div>
+            <div class="cuadro">3</div>
+            <div class="cuadro">4</div>
+            <div class="cuadro">5</div>
+            <div class="cuadro">6</div>
+            <div class="cuadro">7</div>
+            <div class="cuadro">8</div>
+            <div class="cuadro">9</div>
+            <div class="cuadro">10</div>
+            <div class="cuadro">11</div>
+            <div class="cuadro">12</div>
+            <div class="cuadro">13</div>
+            <div class="cuadro">14</div>
+            <div class="cuadro">15</div>
+            <div class="cuadro">16</div>
+            <div class="cuadro">17</div>
+            <div class="cuadro">18</div>
+            <div class="cuadro">19</div>
+            <div class="cuadro">20</div>
+            <div class="cuadro">21</div>
+            <div class="cuadro">22</div>
+            <div class="cuadro">23</div>
+            <div class="cuadro">24</div>
+            <div class="cuadro">25</div>
+        </div>
+    </section>
+    
+
+    <script src="./main.js"></script>
+</body>
+</html>

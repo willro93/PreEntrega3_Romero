@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.instrucciones{
+   font-size: 2rem; 
+}
+.dados{
+    display: flex;
+    justify-content: space-around;
+}
+.botonDado{
+    background-color: rgb(66, 199, 66);
+    height: 100px;
+    width: 400px;
+    font-size: 2rem;
+    border-radius: 30px;
+
+}
+.tableroJuego{
+    background-color: aqua;
+    height: 800px;
+
+}
+.numeroJugadores{
+    background-color: rgb(152, 22, 76);
+    border-radius: 30px;
+    font-size: 2rem;
+    display: grid;
+    text-align: center;
+    color: aliceblue;
+    width: 350px;
+    height: 400px;
+    align-content: space-around;
+    
+}
+.inputDatos{
+    background-color: rgb(152, 22, 76);
+    border-radius: 30px;
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-left: 60px;
+    display: grid;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.puntaje{
+    background-color: rgb(152, 22, 76);
+    border-radius: 30px;
+    font-size: 2rem;
+    margin-top: -300px;
+    margin-left: 300px;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    
+}
+input{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 2rem;
+}
+.ingresarDatos{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 1rem;
+    background-color: rgb(59, 206, 59);
+}
+.botonJugadores{
+    background-color: rgb(59, 206, 59);
+    border: rgb(152, 22, 76);
+    color: black ;
+    height: 50px;
+    width: 300px;
+    font-size: 2rem;
+    border-radius: 30px;
+    display: grid;
+    justify-self: center;
+}
+.casillas{
+    height: 50px;
+    margin-top: -350px;
+    margin-right: 50px;
+    display: grid;
+    justify-content: end;
+    align-content: center;
+	grid-template-columns: repeat(5, 150px); 
+	grid-template-rows: repeat(5, 150px);
+}
+.cuadro{
+    background-color: rgb(47, 148, 47);
+    border: 2px solid purple;
+    width: 150px;
+    height: 150px;
+}
+#p1, #p2, #p3, #p4{
+    background-color: rgb(47, 148, 47);
+    border: 2px solid rgb(47, 148, 47);
+    width: 20px;
+    height: 20px;
+    margin:5px;
+}
